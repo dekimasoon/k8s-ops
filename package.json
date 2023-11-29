@@ -1,0 +1,19 @@
+{
+  "name": "k8s-ops",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "1.4.0",
+    "@tsconfig/node-lts": "18.12.5"
+  },
+  "dependencies": {
+    "@pulumi/pulumi": "3.94.2",
+    "typescript": "5.3.2"
+  }
+}
